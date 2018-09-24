@@ -22,7 +22,7 @@ const getAllQuestions = (categories) => {
 
 const isBoardComplete = (categories) => {
   const allQs = getAllQuestions(categories)
-  return !allQs.filter(question => !question.isAnswered).length
+  return !allQs.filter(question => (question.question || '').length > 0 && !question.isAnswered).length
 }
 
 const getCategories = (categories) => {
