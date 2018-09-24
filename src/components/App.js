@@ -53,8 +53,8 @@ class App extends Component {
       if (done && data.value >= 0) {
         const dict = ({
           jeopardy: 0,
-          doubleJeopardy: 1,
-          finalJeopardy: 2
+          // doubleJeopardy: 1,
+          finalJeopardy: 1
         });
 
         const nextVersion = dict[this.props.currentVersion] + 1 
