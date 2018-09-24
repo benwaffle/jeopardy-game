@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware, compose } from 'redux';
 import thunkMiddleware from 'redux-thunk';
+import logger from 'redux-logger';
 import { Router, Route, hashHistory } from 'react-router';
 
 import reducers from './reducers/reducers';
@@ -14,8 +15,7 @@ import '../styles/styles.css';
 
 
 const createStoreWithMiddleware = compose(
-  applyMiddleware(thunkMiddleware),
-  window.devToolsExtension ? window.devToolsExtension() : f => f
+  applyMiddleware(thunkMiddleware, logger)
 )(createStore);
 
 
