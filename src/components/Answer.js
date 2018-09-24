@@ -4,6 +4,7 @@ import React from 'react';
 export default props => (
   <div className='answer'>
     <div>{props.question.answer}</div>
+    {props.question.imageLink && <div><img src={props.question.imageLink} /></div> }
     <button onClick={props.closeAnswer}>Close</button>
   </div>
 );
