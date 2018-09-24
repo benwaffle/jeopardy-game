@@ -6,6 +6,7 @@ import { hashHistory } from 'react-router';
 import Setup from './Setup';
 import Row from './Row';
 import Question from './Question';
+import Answer from './Answer';
 import Categories from '../containers/Categories';
 import RowContainer from '../containers/RowContainer';
 
@@ -39,9 +40,11 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      showQuestion: false
+      showQuestion: false,
+      showAnswer: false,
     };
     this.openQuestion = this.openQuestion.bind(this);
+    this.closeAnswer = this.closeAnswer.bind(this);
     /*this.closeQuestion = this.closeQuestion.bind(this);*/
 
     ipcRenderer.on('update-score', (event, data) => {
@@ -63,7 +66,7 @@ class App extends Component {
           hashHistory.push('/play/finalJeopardy');
         }
       } else if (data.value >= 0) { 
-        this.setState({ showQuestion: false });
+        this.setState({ showQuestion: false, showAnswer: true });
       }
     });
 
@@ -72,20 +75,26 @@ class App extends Component {
   openQuestion(category, value) {
 
     const question = this.props.game[this.props.currentVersion].categories[category].find(question => question.value === value);
-    this.setState({ showQuestion: question, category });
+    this.setState({ showQuestion: question, question, category });
     /* send answer to admin pannel */
 
     ipcRenderer.send('send-answer-to-admin', { ...question, lastCorrectPlayer: this.props.lastCorrectPlayer });
   }
 
+  closeAnswer() {
+    this.setState({
+      showAnswer: false,
+      question: null
+    })
+  }
 
   render() {
     if (this.props.currentVersion === 'finalJeopardy') return <div></div>;
     const showGame = (Object.keys(this.props.game[this.props.currentVersion].categories).length > 0);
-    const showQuestion = this.state.showQuestion;
+    const { showQuestion, showAnswer } = this.state;
     return (
       <div className="game-container">
-        {showGame && !showQuestion &&
+        {showGame && !showQuestion && !showAnswer &&
         <table>
           <thead>
             <Categories
@@ -100,6 +109,7 @@ class App extends Component {
         </table>
         }
         { showQuestion && <Question question={this.state.showQuestion} closeQuestion={this.closeQuestion} />}
+        { showAnswer && <Answer question={this.state.question} closeAnswer={this.closeAnswer} /> }
       </div>
     );
   }

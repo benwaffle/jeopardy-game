@@ -153,7 +153,7 @@ input[type="text"], textarea {
   margin-top: 10px;
 }
 
-.question {
+.question, .answer {
   font-family: 'Korinna Bold', sans-serif;
   background: #147bce;
   color: #fff;
