@@ -1,0 +1,368 @@
+{
+  "jeopardy": {
+    "categories": {
+      "0": [
+        {
+          "value": 200,
+          "category": "Bits and Bytes",
+          "question": "This term covers the long process of determining how a program works from a binary, occasionally causing you to lose your friends or your mind",
+          "answer": "What is Reverse Engineering?",
+          "youtubeLink": "",
+          "imageLink": ""
+        },
+        {
+          "value": 400,
+          "category": "Bits and Bytes",
+          "question": "This software turns raw binary code back into readable but eye-straining assembly code.",
+          "answer": "What is a disassembler?",
+          "youtubeLink": "",
+          "imageLink": ""
+        },
+        {
+          "value": 600,
+          "category": "Bits and Bytes",
+          "question": "This term refers to a malicious payload injected into a process’ memory (usually to launch /bin/sh)",
+          "answer": "What is shellcode?",
+          "youtubeLink": "",
+          "imageLink": ""
+        },
+        {
+          "value": 800,
+          "category": "Bits and Bytes",
+          "question": "This x86 ASM instruction tells the processor to do nothing for a cycle.",
+          "answer": "What is a NOP?",
+          "youtubeLink": "",
+          "imageLink": ""
+        },
+        {
+          "value": 1000,
+          "category": "Bits and Bytes",
+          "question": "This category of x86 instructions operate on vectors instead of numbers.",
+          "answer": "What is SIMD?",
+          "youtubeLink": "",
+          "imageLink": ""
+        }
+      ],
+      "1": [
+        {
+          "value": 200,
+          "category": "RNGesus",
+          "question": "This Finnish hardass founded and still runs Linux kernel development.",
+          "answer": "Who is Linus Torvalds?",
+          "youtubeLink": "",
+          "imageLink": ""
+        },
+        {
+          "value": 400,
+          "category": "RNGesus",
+          "question": "This family of cryptographic functions are irreversible.",
+          "answer": "What is hashing? ",
+          "youtubeLink": "",
+          "imageLink": ""
+        },
+        {
+          "value": 600,
+          "category": "RNGesus",
+          "question": "According to Randall Munroe, these tools are the easiest way to break encryption.",
+          "answer": "What are drugs and a $5 wrench?",
+          "youtubeLink": "",
+          "imageLink": ""
+        },
+        {
+          "value": 800,
+          "category": "RNGesus",
+          "question": "This concept, usually shortened PKI, refers to networks which help distribute public keys for encryption and signing.",
+          "answer": "What is Public Key Infrastructure?",
+          "youtubeLink": "",
+          "imageLink": ""
+        },
+        {
+          "value": 1000,
+          "category": "RNGesus",
+          "question": "This proprietary set of protocols manages Windows domains",
+          "answer": "What is Active Directory?",
+          "youtubeLink": "",
+          "imageLink": ""
+        }
+      ],
+      "2": [
+        {
+          "value": 200,
+          "category": "Meatspace",
+          "question": "This ex-MIT programmer, known for founding the Free Software Foundation, is well-known for his eccentric views and behaviors.",
+          "answer": "Who is Richard Stallman?",
+          "youtubeLink": "",
+          "imageLink": "https://i.ytimg.com/vi/jUibaPTXSHk/hqdefault.jpg"
+        },
+        {
+          "value": 400,
+          "category": "Meatspace",
+          "question": "This antivirus tycoon known for his R-rated antics recently released a ‘unhackable’ crypto wallet that was hacked within weeks.",
+          "answer": "Who is John McAfee?",
+          "youtubeLink": "",
+          "imageLink": ""
+        },
+        {
+          "value": 600,
+          "category": "Meatspace",
+          "question": "This IoT botnet made headlines for breaking denial of service records with a 1Tbps sustained DDoS on Dyn networks in 2015.",
+          "answer": "What is Mirai?",
+          "youtubeLink": "",
+          "imageLink": ""
+        },
+        {
+          "value": 800,
+          "category": "Meatspace",
+          "question": "This team run by Google is famous for their contributions in discovering Rowhammer, Spectre and Meltdown.",
+          "answer": "What is Google Project Zero?",
+          "youtubeLink": "",
+          "imageLink": ""
+        },
+        {
+          "value": 1000,
+          "category": "Meatspace",
+          "question": "This man is known for the MySpace worm sharing his name, which took over the site in 2005 with malicious Javascript.",
+          "answer": "Who is Samy Kamkar?",
+          "youtubeLink": "",
+          "imageLink": ""
+        }
+      ],
+      "3": [
+        {
+          "value": 200,
+          "category": "OS and Software",
+          "question": "This basic security concept uses multiple methods of authentication to identify a user.",
+          "answer": "What is 2FA / 2-factor authentication?",
+          "youtubeLink": "",
+          "imageLink": ""
+        },
+        {
+          "value": 400,
+          "category": "OS and Software",
+          "question": "The successor of BackTrack Linux, this disto comes packaged with hacking tools.\n",
+          "answer": "What is Kali Linux?",
+          "youtubeLink": "",
+          "imageLink": ""
+        },
+        {
+          "value": 600,
+          "category": "OS and Software",
+          "question": "This open source license, named after a prestigious Northeastern university, is known for its lenient clauses and the number of freedoms it grants.",
+          "answer": "What is the MIT License?",
+          "youtubeLink": "",
+          "imageLink": ""
+        },
+        {
+          "value": 800,
+          "category": "OS and Software",
+          "question": "This penetration testing framework is the largest open source Ruby codebase in existence and has become the de-facto standard for pentesters.",
+          "answer": "What is Metasploit",
+          "youtubeLink": "",
+          "imageLink": ""
+        },
+        {
+          "value": 1000,
+          "category": "OS and Software",
+          "question": "This broad term refers to ENTERPRISE™ systems which collect and manage security-related information.",
+          "answer": "What is a SIEM / Security Information and Event Management?",
+          "youtubeLink": "",
+          "imageLink": ""
+        }
+      ],
+      "4": [
+        {
+          "value": 200,
+          "category": "🅱ig 🅱ois",
+          "question": "It’s not something you have or something you know, but something you are - and it’s used for everything from unlocking phones to tagging people in pictures.",
+          "answer": "What are biometrics?",
+          "youtubeLink": "",
+          "imageLink": ""
+        },
+        {
+          "value": 400,
+          "category": "🅱ig 🅱ois",
+          "question": "In this attack, an adversary gets into a system the hard way - by trying every possible password.",
+          "answer": "What is a brute force attack?",
+          "youtubeLink": "",
+          "imageLink": ""
+        },
+        {
+          "value": 600,
+          "category": "🅱ig 🅱ois",
+          "question": "This software vulnerability occurs when a program writes past the boundary of a buffer in memory.",
+          "answer": "What is a buffer overflow?",
+          "youtubeLink": "",
+          "imageLink": ""
+        },
+        {
+          "value": 800,
+          "category": "🅱ig 🅱ois",
+          "question": "A pre-programmed, default way to enter a system, like a password you can’t change. Only 🅱ad engineers would ever do this, right?",
+          "answer": "What is a backdoor?",
+          "youtubeLink": "",
+          "imageLink": ""
+        },
+        {
+          "value": 1000,
+          "category": "🅱ig 🅱ois",
+          "question": "An disassembler and reversing tool written in Python (hint: It’s not IDA or Radare)",
+          "answer": "What is Binary Ninja?",
+          "youtubeLink": "",
+          "imageLink": ""
+        }
+      ],
+      "5": [
+        {
+          "value": 200,
+          "category": "Web Sec",
+          "question": "This protocol uses SSL/TLS to securely fetch web pages.",
+          "answer": "What is HTTPS?",
+          "youtubeLink": "",
+          "imageLink": ""
+        },
+        {
+          "value": 400,
+          "category": "Web Sec",
+          "question": "This attack is accomplished by injecting malicious Javascript into a benign website.",
+          "answer": "What is XSS / Cross-Site Scripting?",
+          "youtubeLink": "",
+          "imageLink": ""
+        },
+        {
+          "value": 600,
+          "category": "Web Sec",
+          "question": "This attack on databases is possible when forms in a web page don’t properly sanitize (or make safe) user input.",
+          "answer": "What is SQL injection?",
+          "youtubeLink": "",
+          "imageLink": ""
+        },
+        {
+          "value": 800,
+          "category": "Web Sec",
+          "question": "Another input-sanitization problem, this vulnerability allows attackers to upload malicious files from a web page, and have them executed on the server.",
+          "answer": "What is a file inclusion vulnerability?",
+          "youtubeLink": "",
+          "imageLink": ""
+        },
+        {
+          "value": 1000,
+          "category": "Web Sec",
+          "question": "This method of exchanging secret keys over a public channel is used in SSL/TLS.",
+          "answer": "What is Diffie-Hellman key exchange?",
+          "youtubeLink": "",
+          "imageLink": ""
+        }
+      ]
+    }
+  },
+  "doubleJeopardy": {
+    "categories": {
+      "0": [
+        {
+          "value": 400
+        },
+        {
+          "value": 800
+        },
+        {
+          "value": 1200
+        },
+        {
+          "value": 1600
+        },
+        {
+          "value": 2000
+        }
+      ],
+      "1": [
+        {
+          "value": 400
+        },
+        {
+          "value": 800
+        },
+        {
+          "value": 1200
+        },
+        {
+          "value": 1600
+        },
+        {
+          "value": 2000
+        }
+      ],
+      "2": [
+        {
+          "value": 400
+        },
+        {
+          "value": 800
+        },
+        {
+          "value": 1200
+        },
+        {
+          "value": 1600
+        },
+        {
+          "value": 2000
+        }
+      ],
+      "3": [
+        {
+          "value": 400
+        },
+        {
+          "value": 800
+        },
+        {
+          "value": 1200
+        },
+        {
+          "value": 1600
+        },
+        {
+          "value": 2000
+        }
+      ],
+      "4": [
+        {
+          "value": 400
+        },
+        {
+          "value": 800
+        },
+        {
+          "value": 1200
+        },
+        {
+          "value": 1600
+        },
+        {
+          "value": 2000
+        }
+      ],
+      "5": [
+        {
+          "value": 400
+        },
+        {
+          "value": 800
+        },
+        {
+          "value": 1200
+        },
+        {
+          "value": 1600
+        },
+        {
+          "value": 2000
+        }
+      ]
+    }
+  },
+  "finalJeopardy": {
+    "category": "",
+    "question": "",
+    "answer": ""
+  }}
